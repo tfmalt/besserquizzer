@@ -1,0 +1,147 @@
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    /* prevent callout to copy image, etc when tap to hold */
+    -webkit-touch-callout: none;                
+    /* prevent webkit from resizing text to fit */
+    -webkit-text-size-adjust: none;             
+    /* prevent copy paste, to allow, change 'none' to 'text' */
+    -webkit-user-select: none;                  
+    background-color:#666;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+.app {
+    position: relative;
+    top: 50px;
+    width: 100%;
+    padding: 0px;
+    z-index: 100;
+}
+
+.question {
+    background-color: #ffd;
+    border: 1px solid #aa0;
+    margin: 15px;
+    padding: 8px;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  
+        margin:-90px 0px 0px -198px;  
+    }
+}
+
+header {
+    position: fixed;
+}
+#main-page {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid #000;
+    -webkit-transition: left 0.25s ease-out;
+    background-image: -webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+    box-shadow: -3px 0px 12px rgba(0, 0, 0, 0.33);
+    z-index: 100;
+}
+
+#configuration {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 90;
+}
+
+#main-page header {
+    background-color: #eee;
+    height: 40px;
+    padding: 2px 3330px 2px 0px;
+    width: 100%;
+    border-bottom: 1px solid #888;
+    box-shadow: 0px 2px 12px rgba(0,0,0,0.4);
+    z-index: 200;
+}
+
+#main-page header button {
+    height: 32px;
+    width: 32px;
+    margin: 4px 5px;
+    float: left;
+    border-radius: 4px;
+    border: 1px solid #888;
+}
+
+header button:active {
+    background-color: #00a;
+}
+
+.show-menu {
+    background-color: yellow;
+    -webkit-transform: translate(200px, 0px);
+    -webkit-transition: all 2s ease-in-out;
+}
+
+h1 {
+    font-size:28px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align: center;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}

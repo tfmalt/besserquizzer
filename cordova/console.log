@@ -1,0 +1,288 @@
+2013-02-05 11:05:33.149 BesserQuizzer[98661:c07] Multi-tasking -> Device: YES, App: YES
+2013-02-05 11:05:37.810 BesserQuizzer[98661:c07] [LOG] Received Event: deviceready
+2013-02-05 11:05:37.811 BesserQuizzer[98661:c07] [LOG] Calling json
+2013-02-05 11:05:38.159 BesserQuizzer[98661:c07] [LOG] Got JSON: Winston Churchill had two middle names. What were they?
+2013-02-05 11:05:42.404 BesserQuizzer[98661:c07] [LOG] got touchend: normal
+2013-02-05 11:05:44.073 BesserQuizzer[98661:c07] [LOG] got touchend: side
+2013-02-05 11:05:46.361 BesserQuizzer[98661:c07] [LOG] got touchend: normal
+2013-02-05 11:05:48.639 BesserQuizzer[98661:c07] [LOG] got touchend: side
+2013-02-05 11:05:50.221 BesserQuizzer[98661:c07] [LOG] got touchend: normal
+2013-02-05 11:05:52.389 BesserQuizzer[98661:c07] [LOG] got touchend: side
+2013-02-05 11:05:55.319 BesserQuizzer[98661:c07] [LOG] got touchend: normal
+2013-02-05 11:05:56.744 BesserQuizzer[98661:c07] [LOG] got touchend: side
+2013-02-05 11:05:58.581 BesserQuizzer[98661:c07] [LOG] got touchend: normal
+2013-02-05 11:06:00.532 BesserQuizzer[98661:c07] [LOG] got touchend: side
+2013-02-05 11:06:02.946 BesserQuizzer[98661:c07] [LOG] got touchend: normal
+2013-02-05 11:06:04.809 BesserQuizzer[98661:c07] [LOG] got touchend: side
+2013-02-05 11:06:07.750 BesserQuizzer[98661:c07] [LOG] got touchend: normal
+2013-02-05 11:06:09.788 BesserQuizzer[98661:c07] [LOG] got touchend: side
+2013-02-05 11:06:43.441 BesserQuizzer[98661:c07] [LOG] got touchend: normal
+2013-02-05 11:06:57.796 BesserQuizzer[98692:c07] Multi-tasking -> Device: YES, App: YES
+2013-02-05 11:06:58.417 BesserQuizzer[98692:c07] [LOG] Received Event: deviceready
+2013-02-05 11:06:58.418 BesserQuizzer[98692:c07] [LOG] Calling json
+2013-02-05 11:06:58.764 BesserQuizzer[98692:c07] [LOG] Got JSON: Winston Churchill had two middle names. What were they?
+2013-02-05 11:07:01.621 BesserQuizzer[98692:c07] [LOG] got touchend: normal
+2013-02-05 11:07:03.780 BesserQuizzer[98692:c07] [LOG] got touchend: side
+2013-02-05 11:08:49.070 BesserQuizzer[98734:c07] Multi-tasking -> Device: YES, App: YES
+2013-02-05 11:08:50.195 BesserQuizzer[98734:c07] [LOG] Received Event: deviceready
+2013-02-05 11:08:50.196 BesserQuizzer[98734:c07] [LOG] Calling json
+2013-02-05 11:08:50.545 BesserQuizzer[98734:c07] [LOG] Got JSON: Winston Churchill had two middle names. What were they?
+2013-02-05 11:08:59.706 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:08:59.707 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:08:59.716 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:08:59.736 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:08:59.760 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:08:59.767 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:08:59.783 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:08:59.802 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:08:59.816 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.431 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.464 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.499 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.513 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.529 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.779 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.796 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.830 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.862 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.878 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.895 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.912 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.929 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.945 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.962 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.978 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:00.995 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:01.030 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.022 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.038 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.054 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.072 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.104 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.120 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.137 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.183 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.184 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.204 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.220 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.238 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:03.270 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:04.904 BesserQuizzer[98734:c07] [LOG] got touchend: normal
+2013-02-05 11:09:07.773 BesserQuizzer[98734:c07] [LOG] got touchend: side
+2013-02-05 11:09:09.827 BesserQuizzer[98734:c07] [LOG] got touchend: normal
+2013-02-05 11:09:12.297 BesserQuizzer[98734:c07] [LOG] got touchend: side
+2013-02-05 11:09:13.537 BesserQuizzer[98734:c07] [LOG] got touchend: normal
+2013-02-05 11:09:15.117 BesserQuizzer[98734:c07] [LOG] got touchend: side
+2013-02-05 11:09:16.341 BesserQuizzer[98734:c07] [LOG] got touchend: normal
+2013-02-05 11:09:17.979 BesserQuizzer[98734:c07] [LOG] got touchend: side
+2013-02-05 11:09:19.160 BesserQuizzer[98734:c07] [LOG] got touchend: normal
+2013-02-05 11:09:37.460 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.476 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.509 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.525 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.542 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.558 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.575 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.607 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.626 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.658 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.675 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:37.724 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:38.787 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:38.803 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:38.820 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:38.944 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:38.949 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:38.953 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:38.970 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:38.986 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.003 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.667 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.683 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.701 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.717 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.733 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.750 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.767 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.783 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.816 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.833 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.850 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:39.866 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.415 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.431 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.555 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.563 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.580 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.598 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.613 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.630 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.646 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.663 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.679 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.697 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.713 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.730 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.764 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.796 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.812 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.829 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.845 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.862 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.880 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.897 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.928 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.945 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.962 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:40.985 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.011 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.029 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.045 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.195 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.211 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.228 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.244 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.260 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.277 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.293 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.310 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.327 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.344 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.361 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.377 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.393 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.410 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.426 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.443 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.460 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.477 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.511 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.542 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.577 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.659 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.709 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.725 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.742 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.758 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.776 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.792 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.809 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.826 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.843 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.858 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.875 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.900 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.908 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:41.925 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.719 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.735 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.752 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.768 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.789 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.817 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.835 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.851 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.870 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.901 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.918 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.935 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.950 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:43.971 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.118 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.150 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.166 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.183 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.200 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.216 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.233 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.250 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.266 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.284 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.316 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.333 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.349 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.366 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.383 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.399 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.415 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:44.432 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.114 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.130 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.146 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.163 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.180 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.196 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.213 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.246 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.263 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.279 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.296 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.337 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.338 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.345 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.362 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.384 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.445 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.462 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.478 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.495 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.511 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.529 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.546 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.561 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.577 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.594 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.611 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.627 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.644 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.661 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.677 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.694 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.727 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:09:45.761 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.292 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.324 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.340 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.363 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.374 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.391 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.408 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.425 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.457 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.474 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.507 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.557 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.576 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.590 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.624 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.657 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.673 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.690 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.707 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.722 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.740 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.840 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.856 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.872 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.889 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.906 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.922 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.938 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.956 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.971 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:04.988 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:05.005 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:05.022 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:05.038 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:05.055 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:05.071 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:05.088 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:05.129 BesserQuizzer[98734:c07] [LOG] got touchmove
+2013-02-05 11:10:07.170 BesserQuizzer[98734:c07] [LOG] got touchend: side
+2013-02-05 11:10:09.169 BesserQuizzer[98734:c07] [LOG] got touchend: normal
+2013-02-05 11:12:10.894 BesserQuizzer[98842:c07] Multi-tasking -> Device: YES, App: YES
+2013-02-05 11:12:11.999 BesserQuizzer[98842:c07] [LOG] Received Event: deviceready
+2013-02-05 11:12:12.000 BesserQuizzer[98842:c07] [LOG] Calling json
+2013-02-05 11:12:12.358 BesserQuizzer[98842:c07] [LOG] Got JSON: Winston Churchill had two middle names. What were they?
+2013-02-05 11:12:21.149 BesserQuizzer[98842:c07] [LOG] got touchend: normal
+2013-02-05 11:12:24.170 BesserQuizzer[98842:c07] [LOG] got touchend: side
