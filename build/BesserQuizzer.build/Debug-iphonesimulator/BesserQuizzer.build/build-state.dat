@@ -1,608 +1,0 @@
-TBesserQuizzer
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Info.plist BesserQuizzer/BesserQuizzer-Info.plist
-cPhaseScriptExecution "Touch www folder" /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Script-304B58A110DAC018002A0835.sh
-cCpResource BesserQuizzer/config.xml build/BesserQuizzer.app/config.xml
-cCpResource www build/BesserQuizzer.app/www
-cCpResource BesserQuizzer/Resources/icons/icon-72.png build/BesserQuizzer.app/icon-72.png
-cCpResource BesserQuizzer/Resources/icons/icon.png build/BesserQuizzer.app/icon.png
-cCpResource BesserQuizzer/Resources/icons/icon@2x.png build/BesserQuizzer.app/icon@2x.png
-cCpResource BesserQuizzer/Resources/Capture.bundle build/BesserQuizzer.app/Capture.bundle
-cCopyStringsFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/en.lproj/Localizable.strings BesserQuizzer/Resources/en.lproj/Localizable.strings
-cCopyStringsFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/es.lproj/Localizable.strings BesserQuizzer/Resources/es.lproj/Localizable.strings
-cCompileXIB /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.xib
-cCopyStringsFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/de.lproj/Localizable.strings BesserQuizzer/Resources/de.lproj/Localizable.strings
-cCopyStringsFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/se.lproj/Localizable.strings BesserQuizzer/Resources/se.lproj/Localizable.strings
-cCpResource BesserQuizzer/Resources/splash/Default-Landscape@2x~ipad.png build/BesserQuizzer.app/Default-Landscape@2x~ipad.png
-cCpResource BesserQuizzer/Resources/splash/Default-Landscape~ipad.png build/BesserQuizzer.app/Default-Landscape~ipad.png
-cCpResource BesserQuizzer/Resources/splash/Default-Portrait@2x~ipad.png build/BesserQuizzer.app/Default-Portrait@2x~ipad.png
-cCpResource BesserQuizzer/Resources/splash/Default-Portrait~ipad.png build/BesserQuizzer.app/Default-Portrait~ipad.png
-cCpResource BesserQuizzer/Resources/splash/Default@2x~iphone.png build/BesserQuizzer.app/Default@2x~iphone.png
-cCpResource BesserQuizzer/Resources/splash/Default~iphone.png build/BesserQuizzer.app/Default~iphone.png
-cCpResource BesserQuizzer/Resources/splash/Default-568h@2x~iphone.png build/BesserQuizzer.app/Default-568h@2x~iphone.png
-cProcessPCH /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch.pth BesserQuizzer/BesserQuizzer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/MainViewController.o /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/AppDelegate.o /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/main.o /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/BesserQuizzer normal i386
-cGenerateDSYMFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app.dSYM /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/BesserQuizzer
-cTouch /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
-c000000005102E2D30000000000000110
-t1359143635
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c00000000510973BE00000000001EB540
-t1359573950
-s2012480
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c00000000510973BA00000000000C1030
-t1359573946
-s790576
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
-c00000000510973BB0000000000193640
-t1359573947
-s1652288
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c00000000510973BC00000000003D4DF0
-t1359573948
-s4017648
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
-c00000000510973BF0000000000215DB0
-t1359573951
-s2186672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000510973C00000000000228FE0
-t1359573952
-s2265056
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c00000000510973C0000000000009C590
-t1359573952
-s640400
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
-c00000000510973C00000000000085620
-t1359573952
-s546336
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000510973C600000000003DDFA0
-t1359573958
-s4054944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c00000000510973CD00000000002DBA50
-t1359573965
-s2996816
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
-c00000000510973CE00000000000BCC20
-t1359573966
-s773152
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c00000000510973D000000000001D5750
-t1359573968
-s1922896
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c00000000510973D1000000000006CC50
-t1359573969
-s445520
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000510973D50000000000AB6230
-t1359573973
-s11231792
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/BesserQuizzer-Prefix.pch
-c00000000510EC5EF00000000000003CB
-t1359922671
-s971
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/AppDelegate.m
-c00000000510EC5EF0000000000001018
-t1359922671
-s4120
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.m
-c00000000510EC5EF0000000000001273
-t1359922671
-s4723
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.xib
-c00000000510EC5EF0000000000001759
-t1359922671
-s5977
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/Capture.bundle
-c00000000510EC5EF000000000000030E
-t1359922671
-s782
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/de.lproj/Localizable.strings
-c00000000510EC5EF0000000000000485
-t1359922671
-s1157
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/en.lproj/Localizable.strings
-c00000000510EC5EF0000000000000470
-t1359922671
-s1136
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/es.lproj/Localizable.strings
-c00000000510EC5EF000000000000047D
-t1359922671
-s1149
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/icons/icon-72.png
-c00000000510EC5EF0000000000001350
-t1359922671
-s4944
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/icons/icon.png
-c00000000510EC5EF0000000000000F3E
-t1359922671
-s3902
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/icons/icon@2x.png
-c00000000510EC5EF0000000000001EBD
-t1359922671
-s7869
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/se.lproj/Localizable.strings
-c00000000510EC5EF0000000000000471
-t1359922671
-s1137
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default-568h@2x~iphone.png
-c00000000510EC5EF0000000000055EBB
-t1359922671
-s351931
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default-Landscape@2x~ipad.png
-c00000000510EC5EF0000000000176888
-t1359922671
-s1534088
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default-Landscape~ipad.png
-c00000000510EC5EF00000000000674B7
-t1359922671
-s423095
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default-Portrait@2x~ipad.png
-c00000000510EC5EF00000000001892C2
-t1359922671
-s1610434
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default-Portrait~ipad.png
-c00000000510EC5EF0000000000066F23
-t1359922671
-s421667
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default@2x~iphone.png
-c00000000510EC5EF0000000000055981
-t1359922671
-s350593
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default~iphone.png
-c00000000510EC5EF0000000000016EC9
-t1359922671
-s93897
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/config.xml
-c0000000051104A5F0000000000000AC3
-t1360022111
-s2755
-
-N/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/main.m
-c00000000510EC5EF000000000000045F
-t1359922671
-s1119
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app.dSYM
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/BesserQuizzer
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Capture.bundle
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default-568h@2x~iphone.png
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default-Landscape@2x~ipad.png
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default-Landscape~ipad.png
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default-Portrait@2x~ipad.png
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default-Portrait~ipad.png
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default@2x~iphone.png
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default~iphone.png
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Info.plist
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/MainViewController.nib
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/PkgInfo
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/config.xml
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/de.lproj/Localizable.strings
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/en.lproj/Localizable.strings
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/es.lproj/Localizable.strings
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/icon-72.png
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/icon.png
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/icon@2x.png
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/se.lproj/Localizable.strings
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/www
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/AppDelegate.o
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/BesserQuizzer.LinkFileList
-c000000005110D8A4000000000000019B
-t1360058532
-s411
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/MainViewController.o
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Script-304B58A110DAC018002A0835.sh
-c000000005110D8A30000000000000027
-t1360058531
-s39
-
-N/Users/tm/src/tfmalt/BesserQuizzer/build/libCordova.a
-c000000005110D8A30000000000355D90
-t1360058531
-s3497360
-
-N/Users/tm/src/tfmalt/BesserQuizzer/www
-c000000005110D5850000000000000176
-t1360057733
-s374
-
-N/var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch.pth
-t2
-s0
-
-NBesserQuizzer/BesserQuizzer-Info.plist
-c00000000510F17510000000000000685
-t1359943505
-s1669
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies62f7f92310c1b641^ca4f022410c1b641^---0#1#0#--18"Check dependencies36"BC72E6FD-E157-46FA-916C-5F1B41B88C0C-
-
-CCompileC build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/AppDelegate.o /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s381751355.354191
-e381751355.973586
-r1
-xCompileC
-xbuild/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/AppDelegate.o
-x/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/AppDelegate.mb9de5a3b10c1b641^4051f93b10c1b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/AppDelegate.m0000000000000000^3482"CompileC build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/AppDelegate.o BesserQuizzer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-generated-files.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-own-target-headers.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-all-target-headers.hmap -iquote /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-project-headers.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/include -I/Users/tm/src/tfmalt/BesserQuizzer/build/usr/local/lib/include -I/Users/tm/src/tfmalt/BesserQuizzer/build/UninstalledProducts/include -I/Users/tm/src/tfmalt/BesserQuizzer/build -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources/i386 -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources -F/Users/tm/src/tfmalt/BesserQuizzer/build -include /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch -MMD -MT dependencies -MF /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/AppDelegate.dia -c /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/AppDelegate.m -o /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/AppDelegate.o36"BBC44E09-F4E2-4915-8FFB-B625B433CF13-
-
-CCompileC build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/MainViewController.o /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s381751355.352828
-e381751355.864401
-r1
-xCompileC
-xbuild/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/MainViewController.o
-x/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.mac905a3b10c1b641^a14add3b10c1b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.m0000000000000000^3524"CompileC build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/MainViewController.o BesserQuizzer/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-generated-files.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-own-target-headers.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-all-target-headers.hmap -iquote /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-project-headers.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/include -I/Users/tm/src/tfmalt/BesserQuizzer/build/usr/local/lib/include -I/Users/tm/src/tfmalt/BesserQuizzer/build/UninstalledProducts/include -I/Users/tm/src/tfmalt/BesserQuizzer/build -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources/i386 -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources -F/Users/tm/src/tfmalt/BesserQuizzer/build -include /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch -MMD -MT dependencies -MF /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/MainViewController.dia -c /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.m -o /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/MainViewController.o36"8B1F04CD-5B26-4C12-AF2E-81D82AAC6BD1-
-
-CCompileC build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/main.o /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s381751355.865647
-e381751356.249944
-r1
-xCompileC
-xbuild/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/main.o
-x/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/main.m1ec1dd3b10c1b641^280e403c10c1b641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/main.m0000000000000000^3424"CompileC build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/main.o BesserQuizzer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-generated-files.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-own-target-headers.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-all-target-headers.hmap -iquote /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-project-headers.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/include -I/Users/tm/src/tfmalt/BesserQuizzer/build/usr/local/lib/include -I/Users/tm/src/tfmalt/BesserQuizzer/build/UninstalledProducts/include -I/Users/tm/src/tfmalt/BesserQuizzer/build -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources/i386 -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources -F/Users/tm/src/tfmalt/BesserQuizzer/build -include /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch -MMD -MT dependencies -MF /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/main.dia -c /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/main.m -o /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/main.o36"D2BA27F3-AD6A-4512-891C-D02F8442C779-
-
-CCompileXIB /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.xib
-s381751332.927581
-e381751354.509176
-r1
-xCompileXIB
-x/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.xib
-o2013-02-05 11:02:29.754 Interface Builder Cocoa Touch Tool[98497:f07] CFPreferences: user home directory at file://localhost/Users/tm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compiling /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.xib48a4ed2410c1b641^1172823a10c1b641^-235"2013-02-05 11:02:29.754 Interface Builder Cocoa Touch Tool[98497:f07] CFPreferences: user home directory at file://localhost/Users/tm/Library/Application%20Support/iPhone%20Simulator/User/ is unavailable. User domains will be volatile.-0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.xib0000000000000000^973"CompileXIB BesserQuizzer/Classes/MainViewController.xib    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/MainViewController.nib /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"7D8B6035-34B9-406A-A4A6-546B05F7ED05-
-
-CCopyStringsFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/de.lproj/Localizable.strings BesserQuizzer/Resources/de.lproj/Localizable.strings
-s381751333.161828
-e381751333.310691
-r1
-xCopyStringsFile
-x/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/de.lproj/Localizable.strings
-xBesserQuizzer/Resources/de.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy BesserQuizzer/Resources/de.lproj/Localizable.strings4889292510c1b641^268b4f2510c1b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/de.lproj/Localizable.strings0000000000000000^647"CopyStringsFile build/BesserQuizzer.app/de.lproj/Localizable.strings BesserQuizzer/Resources/de.lproj/Localizable.strings    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/de.lproj -- BesserQuizzer/Resources/de.lproj/Localizable.strings36"EF962342-A71D-4862-88D4-D79A60573E02-
-
-CCopyStringsFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/en.lproj/Localizable.strings BesserQuizzer/Resources/en.lproj/Localizable.strings
-s381751332.801410
-e381751332.852621
-r1
-xCopyStringsFile
-x/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/en.lproj/Localizable.strings
-xBesserQuizzer/Resources/en.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy BesserQuizzer/Resources/en.lproj/Localizable.strings685bcd2410c1b641^f146da2410c1b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/en.lproj/Localizable.strings0000000000000000^647"CopyStringsFile build/BesserQuizzer.app/en.lproj/Localizable.strings BesserQuizzer/Resources/en.lproj/Localizable.strings    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/en.lproj -- BesserQuizzer/Resources/en.lproj/Localizable.strings36"67532151-621B-4B84-8E70-2A9DBAFF89B0-
-
-CCopyStringsFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/es.lproj/Localizable.strings BesserQuizzer/Resources/es.lproj/Localizable.strings
-s381751332.854034
-e381751332.926004
-r1
-xCopyStringsFile
-x/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/es.lproj/Localizable.strings
-xBesserQuizzer/Resources/es.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy BesserQuizzer/Resources/es.lproj/Localizable.stringsaccada2410c1b641^620fed2410c1b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/es.lproj/Localizable.strings0000000000000000^647"CopyStringsFile build/BesserQuizzer.app/es.lproj/Localizable.strings BesserQuizzer/Resources/es.lproj/Localizable.strings    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/es.lproj -- BesserQuizzer/Resources/es.lproj/Localizable.strings36"7126BACC-3A16-4859-A222-030240BE566B-
-
-CCopyStringsFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/se.lproj/Localizable.strings BesserQuizzer/Resources/se.lproj/Localizable.strings
-s381751333.313059
-e381751333.400112
-r1
-xCopyStringsFile
-x/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/se.lproj/Localizable.strings
-xBesserQuizzer/Resources/se.lproj/Localizable.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy BesserQuizzer/Resources/se.lproj/Localizable.strings0b42512510c1b641^2f6f662510c1b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/se.lproj/Localizable.strings0000000000000000^647"CopyStringsFile build/BesserQuizzer.app/se.lproj/Localizable.strings BesserQuizzer/Resources/se.lproj/Localizable.strings    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/se.lproj -- BesserQuizzer/Resources/se.lproj/Localizable.strings36"F73A5C9E-9BD1-4040-AB7A-56790D81F8CC-
-
-CCpResource BesserQuizzer/Resources/Capture.bundle build/BesserQuizzer.app/Capture.bundle
-s381751332.165189
-e381751332.800039
-r1
-xCpResource
-xBesserQuizzer/Resources/Capture.bundle
-xbuild/BesserQuizzer.app/Capture.bundle
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/BesserQuizzer.app/Capture.bundle17652a2410c1b641^68d0cc2410c1b641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Capture.bundle000000000080d041^645"CpResource BesserQuizzer/Resources/Capture.bundle build/BesserQuizzer.app/Capture.bundle    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/Capture.bundle /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"BAC863EE-E5E8-469C-B5EA-82555B189742-
-
-CCpResource BesserQuizzer/Resources/icons/icon-72.png build/BesserQuizzer.app/icon-72.png
-s381751332.142770
-e381751332.155139
-r1
-xCpResource
-xBesserQuizzer/Resources/icons/icon-72.png
-xbuild/BesserQuizzer.app/icon-72.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/BesserQuizzer.app/icon-72.png5da8242410c1b641^6bd4272410c1b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/icon-72.png000000000080d041^648"CpResource BesserQuizzer/Resources/icons/icon-72.png build/BesserQuizzer.app/icon-72.png    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/icons/icon-72.png /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"A2693FFC-6202-448B-9209-DC211E1752A7-
-
-CCpResource BesserQuizzer/Resources/icons/icon.png build/BesserQuizzer.app/icon.png
-s381751332.156389
-e381751332.159706
-r1
-xCpResource
-xBesserQuizzer/Resources/icons/icon.png
-xbuild/BesserQuizzer.app/icon.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/BesserQuizzer.app/icon.png0725282410c1b641^afea282410c1b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/icon.png000000000080d041^639"CpResource BesserQuizzer/Resources/icons/icon.png build/BesserQuizzer.app/icon.png    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/icons/icon.png /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"3CCA1386-1D69-4DCE-AFE7-714CE38E0A6E-
-
-CCpResource BesserQuizzer/Resources/icons/icon@2x.png build/BesserQuizzer.app/icon@2x.png
-s381751332.160936
-e381751332.163924
-r1
-xCpResource
-xBesserQuizzer/Resources/icons/icon@2x.png
-xbuild/BesserQuizzer.app/icon@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/BesserQuizzer.app/icon@2x.png404d292410c1b641^dafe292410c1b641^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/icon@2x.png000000000080d041^654"CpResource "BesserQuizzer/Resources/icons/icon@2x.png" "build/BesserQuizzer.app/icon@2x.png"    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/icons/icon@2x.png" /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"D4329509-4AFD-47B2-BC24-9BDEAB1F429B-
-
-CCpResource BesserQuizzer/Resources/splash/Default-568h@2x~iphone.png build/BesserQuizzer.app/Default-568h@2x~iphone.png
-s381751334.670530
-e381751334.746417
-r1
-xCpResource
-xBesserQuizzer/Resources/splash/Default-568h@2x~iphone.png
-xbuild/BesserQuizzer.app/Default-568h@2x~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/BesserQuizzer.app/Default-568h@2x~iphone.pngc1c4ab2610c1b641^df17bf2610c1b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default-568h@2x~iphone.png000000000080d041^701"CpResource "BesserQuizzer/Resources/splash/Default-568h@2x~iphone.png" "build/BesserQuizzer.app/Default-568h@2x~iphone.png"    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default-568h@2x~iphone.png" /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"0719B008-2407-4F08-A7FA-BC8790DBBC62-
-
-CCpResource BesserQuizzer/Resources/splash/Default-Landscape@2x~ipad.png build/BesserQuizzer.app/Default-Landscape@2x~ipad.png
-s381751333.401501
-e381751333.777493
-r1
-xCpResource
-xBesserQuizzer/Resources/splash/Default-Landscape@2x~ipad.png
-xbuild/BesserQuizzer.app/Default-Landscape@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/BesserQuizzer.app/Default-Landscape@2x~ipad.png9eec662510c1b641^9b1bc72510c1b641^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default-Landscape@2x~ipad.png000000000080d041^710"CpResource "BesserQuizzer/Resources/splash/Default-Landscape@2x~ipad.png" "build/BesserQuizzer.app/Default-Landscape@2x~ipad.png"    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default-Landscape@2x~ipad.png" /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"AC120140-F228-4610-86F9-42E8D293660B-
-
-CCpResource BesserQuizzer/Resources/splash/Default-Landscape~ipad.png build/BesserQuizzer.app/Default-Landscape~ipad.png
-s381751333.779162
-e381751334.160731
-r1
-xCpResource
-xBesserQuizzer/Resources/splash/Default-Landscape~ipad.png
-xbuild/BesserQuizzer.app/Default-Landscape~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/BesserQuizzer.app/Default-Landscape~ipad.png1b9dc72510c1b641^4435292610c1b641^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default-Landscape~ipad.png000000000080d041^701"CpResource "BesserQuizzer/Resources/splash/Default-Landscape~ipad.png" "build/BesserQuizzer.app/Default-Landscape~ipad.png"    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default-Landscape~ipad.png" /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"FB42BBEC-9D50-4F17-A6A3-B9F66316CB44-
-
-CCpResource BesserQuizzer/Resources/splash/Default-Portrait@2x~ipad.png build/BesserQuizzer.app/Default-Portrait@2x~ipad.png
-s381751334.162156
-e381751334.518818
-r1
-xCpResource
-xBesserQuizzer/Resources/splash/Default-Portrait@2x~ipad.png
-xbuild/BesserQuizzer.app/Default-Portrait@2x~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/BesserQuizzer.app/Default-Portrait@2x~ipad.png09a7292610c1b641^2bde842610c1b641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default-Portrait@2x~ipad.png000000000080d041^707"CpResource "BesserQuizzer/Resources/splash/Default-Portrait@2x~ipad.png" "build/BesserQuizzer.app/Default-Portrait@2x~ipad.png"    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default-Portrait@2x~ipad.png" /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"77B74D60-894C-467A-8000-A20D4260AD18-
-
-CCpResource BesserQuizzer/Resources/splash/Default-Portrait~ipad.png build/BesserQuizzer.app/Default-Portrait~ipad.png
-s381751334.520075
-e381751334.629911
-r1
-xCpResource
-xBesserQuizzer/Resources/splash/Default-Portrait~ipad.png
-xbuild/BesserQuizzer.app/Default-Portrait~ipad.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/BesserQuizzer.app/Default-Portrait~ipad.png2041852610c1b641^9641a12610c1b641^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default-Portrait~ipad.png000000000080d041^698"CpResource "BesserQuizzer/Resources/splash/Default-Portrait~ipad.png" "build/BesserQuizzer.app/Default-Portrait~ipad.png"    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default-Portrait~ipad.png" /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"747AFED0-4846-48E7-80D5-660DF899B199-
-
-CCpResource BesserQuizzer/Resources/splash/Default@2x~iphone.png build/BesserQuizzer.app/Default@2x~iphone.png
-s381751334.631551
-e381751334.656142
-r1
-xCpResource
-xBesserQuizzer/Resources/splash/Default@2x~iphone.png
-xbuild/BesserQuizzer.app/Default@2x~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/BesserQuizzer.app/Default@2x~iphone.pnga7eba12610c1b641^4f05a82610c1b641^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default@2x~iphone.png000000000080d041^686"CpResource "BesserQuizzer/Resources/splash/Default@2x~iphone.png" "build/BesserQuizzer.app/Default@2x~iphone.png"    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default@2x~iphone.png" /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"57C865AC-F64E-4E51-BB35-720D2A5E723C-
-
-CCpResource BesserQuizzer/Resources/splash/Default~iphone.png build/BesserQuizzer.app/Default~iphone.png
-s381751334.657407
-e381751334.668616
-r1
-xCpResource
-xBesserQuizzer/Resources/splash/Default~iphone.png
-xbuild/BesserQuizzer.app/Default~iphone.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/BesserQuizzer.app/Default~iphone.pngcf67a82610c1b641^392aab2610c1b641^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Default~iphone.png000000000080d041^677"CpResource "BesserQuizzer/Resources/splash/Default~iphone.png" "build/BesserQuizzer.app/Default~iphone.png"    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/Resources/splash/Default~iphone.png" /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"75EA75D6-2E3E-4DF8-B9FB-2C873A3CC628-
-
-CCpResource BesserQuizzer/config.xml build/BesserQuizzer.app/config.xml
-s381751332.124039
-e381751332.141490
-r1
-xCpResource
-xBesserQuizzer/config.xml
-xbuild/BesserQuizzer.app/config.xml
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/BesserQuizzer.app/config.xml6edf1f2410c1b641^ee41242410c1b641^---0#0#0#-19%DVTDocumentLocation2@85"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/config.xml000000000080d041^613"CpResource BesserQuizzer/config.xml build/BesserQuizzer.app/config.xml    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/config.xml /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"9C33B40F-BC7A-414E-8892-57A7C01EE541-
-
-CCpResource www build/BesserQuizzer.app/www
-s381751332.124265
-e381751333.160361
-r1
-xCpResource
-xwww
-xbuild/BesserQuizzer.app/www
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Copy build/BesserQuizzer.app/www4fe61f2410c1b641^c91e292510c1b641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/www000000000080d041^564"CpResource www build/BesserQuizzer.app/www    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/tm/src/tfmalt/BesserQuizzer/www /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"5867F8A3-A7C0-470E-A08C-22E206E4088E-
-
-CGenerateDSYMFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app.dSYM /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/BesserQuizzer
-s381751360.411783
-e381751360.948242
-r1
-xGenerateDSYMFile
-x/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app.dSYM
-x/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/BesserQuizzer
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Generate /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app.dSYM7287694010c1b641^8ecdf24010c1b641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app.dSYM000000000080d041^635"GenerateDSYMFile build/BesserQuizzer.app.dSYM build/BesserQuizzer.app/BesserQuizzer    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/BesserQuizzer -o /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app.dSYM36"AA513491-AA48-492B-A82D-D9401F11A02C-
-
-CLd /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/BesserQuizzer normal i386
-s381751356.271571
-e381751360.404795
-r1
-xLd
-x/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/BesserQuizzer
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Link /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/BesserQuizzerb8ad453c10c1b641^c7a0674010c1b641^---0#0#0#--1620"Ld build/BesserQuizzer.app/BesserQuizzer normal i386    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/tm/src/tfmalt/BesserQuizzer/build -F/Users/tm/src/tfmalt/BesserQuizzer/build -filelist /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/BesserQuizzer.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.1 /Users/tm/src/tfmalt/BesserQuizzer/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/BesserQuizzer36"CB44C13C-51E5-495F-956D-174C2E45C417-
-
-CPhaseScriptExecution "Touch www folder" /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Script-304B58A110DAC018002A0835.sh
-s381751332.048042
-e381751332.116062
-r1
-xPhaseScriptExecution
-xTouch www folder
-x/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Script-304B58A110DAC018002A0835.sh
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'19c60d2410c1b641^79cb1d2410c1b641^---0#0#0#--20202"PhaseScriptExecution "Touch www folder" build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Script-304B58A110DAC018002A0835.sh    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER tm    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/tm/src/tfmalt/BesserQuizzer/build    setenv BUILD_ROOT /Users/tm/src/tfmalt/BesserQuizzer/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/tm/src/tfmalt/BesserQuizzer/build    setenv CACHE_ROOT /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC NO    setenv CLANG_WARN_OBJCPP_ARC_ABI YES    setenv CLASS_FILE_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/tm/src/tfmalt/BesserQuizzer/build    setenv CONFIGURATION_TEMP_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH BesserQuizzer.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH BesserQuizzer.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/BesserQuizzer.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME BesserQuizzer.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/tm/src/tfmalt/BesserQuizzer/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH BesserQuizzer.app/Executables    setenv EXECUTABLE_FOLDER_PATH BesserQuizzer.app    setenv EXECUTABLE_NAME BesserQuizzer    setenv EXECUTABLE_PATH BesserQuizzer.app/BesserQuizzer    setenv FILE_LIST /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH BesserQuizzer.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/tm/src/tfmalt/BesserQuizzer/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME BesserQuizzer.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER BesserQuizzer/BesserQuizzer-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/tm/src/tfmalt/BesserQuizzer/build/include\" \"/Users/tm/src/tfmalt/BesserQuizzer/build/usr/local/lib/include\" \"/Users/tm/src/tfmalt/BesserQuizzer/build/UninstalledProducts/include\" \"/Users/tm/src/tfmalt/BesserQuizzer/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE BesserQuizzer/BesserQuizzer-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH BesserQuizzer.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH BesserQuizzer.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/BesserQuizzer.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER tm    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/BesserQuizzer.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH BesserQuizzer.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/tm/src/tfmalt/BesserQuizzer/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal/i386/BesserQuizzer.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH BesserQuizzer.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C60    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Objects-normal    setenv OBJROOT /Users/tm/src/tfmalt/BesserQuizzer/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/tm/bin:/usr/local/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH BesserQuizzer.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/PkgInfo    setenv PKGINFO_PATH BesserQuizzer.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH BesserQuizzer.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH BesserQuizzer.app/PrivateHeaders    setenv PRODUCT_NAME BesserQuizzer    setenv PRODUCT_SETTINGS_PATH /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/BesserQuizzer-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT BesserQuizzer    setenv PROJECT_DERIVED_FILE_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/DerivedSources    setenv PROJECT_DIR /Users/tm/src/tfmalt/BesserQuizzer    setenv PROJECT_FILE_PATH /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer.xcodeproj    setenv PROJECT_NAME BesserQuizzer    setenv PROJECT_TEMP_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build    setenv PROJECT_TEMP_ROOT /Users/tm/src/tfmalt/BesserQuizzer/build    setenv PUBLIC_HEADERS_FOLDER_PATH BesserQuizzer.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/tm/src/tfmalt/BesserQuizzer/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH BesserQuizzer.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH BesserQuizzer.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH BesserQuizzer.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/tm/src/tfmalt/BesserQuizzer    setenv SRCROOT /Users/tm/src/tfmalt/BesserQuizzer    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/tm/src/tfmalt/BesserQuizzer/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME BesserQuizzer    setenv TARGET_BUILD_DIR /Users/tm/src/tfmalt/BesserQuizzer/build    setenv TARGET_NAME BesserQuizzer    setenv TARGET_TEMP_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build    setenv TEMP_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build    setenv TEMP_FILES_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build    setenv TEMP_FILE_DIR /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build    setenv TEMP_ROOT /Users/tm/src/tfmalt/BesserQuizzer/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH BesserQuizzer.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER tm    setenv USER_APPS_DIR /Users/tm/Applications    setenv USER_LIBRARY_DIR /Users/tm/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH BesserQuizzer.app/version.plist    setenv VERSION_INFO_BUILDER tm    setenv VERSION_INFO_FILE BesserQuizzer_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:BesserQuizzer  PROJECT:BesserQuizzer-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME BesserQuizzer.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H127    setenv XCODE_VERSION_ACTUAL 0460    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/Script-304B58A110DAC018002A0835.sh36"3694AFDF-7BA3-408B-9C12-2FFDA25176F1-
-
-CProcessInfoPlistFile /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Info.plist BesserQuizzer/BesserQuizzer-Info.plist
-s381751332.015994
-e381751332.037745
-r1
-xProcessInfoPlistFile
-x/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Info.plist
-xBesserQuizzer/BesserQuizzer-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process BesserQuizzer/BesserQuizzer-Info.plist433a042410c1b641^9eb7092410c1b641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/BesserQuizzer-Info.plist0000000000000000^688"ProcessInfoPlistFile build/BesserQuizzer.app/Info.plist BesserQuizzer/BesserQuizzer-Info.plist    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    builtin-infoPlistUtility BesserQuizzer/BesserQuizzer-Info.plist -genpkginfo /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app/Info.plist36"31865F46-787B-4E5D-8C54-519B11166393-
-
-CProcessPCH /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch.pth BesserQuizzer/BesserQuizzer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s381751354.595064
-e381751355.345923
-r1
-xProcessPCH
-x/var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch.pth
-xBesserQuizzer/BesserQuizzer-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile BesserQuizzer/BesserQuizzer-Prefix.pchc381983a10c1b641^6d8d583b10c1b641^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/BesserQuizzer-Prefix.pch0000000000000000^3494"ProcessPCH /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch.pth BesserQuizzer/BesserQuizzer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.1 -iquote /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-generated-files.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-own-target-headers.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-all-target-headers.hmap -iquote /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/BesserQuizzer-project-headers.hmap -I/Users/tm/src/tfmalt/BesserQuizzer/build/include -I/Users/tm/src/tfmalt/BesserQuizzer/build/usr/local/lib/include -I/Users/tm/src/tfmalt/BesserQuizzer/build/UninstalledProducts/include -I/Users/tm/src/tfmalt/BesserQuizzer/build -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources/i386 -I/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.build/Debug-iphonesimulator/BesserQuizzer.build/DerivedSources -F/Users/tm/src/tfmalt/BesserQuizzer/build --serialize-diagnostics /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch.dia -c /Users/tm/src/tfmalt/BesserQuizzer/BesserQuizzer/BesserQuizzer-Prefix.pch -o /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/g_/xl2q2bbd5_g7h1v_5t9w8xk00000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BesserQuizzer-Prefix-aqzigrmpsnmmzvdetoarjdolnsrg/BesserQuizzer-Prefix.pch.d36"2DDF1AA5-9E01-4577-9F27-B20C0BB29255-
-
-CTouch /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app
-s381751360.956356
-e381751361.099292
-r1
-xTouch
-x/Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Touch /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app0af5f44010c1b641^c26d194110c1b641^---0#0#0#--422"Touch build/BesserQuizzer.app    cd /Users/tm/src/tfmalt/BesserQuizzer    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/tm/bin::/usr/local/sbin"    /usr/bin/touch -c /Users/tm/src/tfmalt/BesserQuizzer/build/BesserQuizzer.app36"81A3E997-A2C2-4A63-B356-147A75DFFBDD-
-
