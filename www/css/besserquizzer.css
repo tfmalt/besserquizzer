@@ -113,7 +113,7 @@ header {
     position:          absolute;
     height: 100%;
     -webkit-transform: translateZ(0);
-    -webkit-transition: left 0.5s ease-out;
+    -webkit-transition: left 0.3s ease-out;
 }
 .main-menu-normal {
     left: -1px;
@@ -126,7 +126,7 @@ header {
 #main-menu {
     position:    absolute;
     top:         0;
-    width:       100%;
+    width:       321px;
     height:      100%;
     border-left: 1px solid #aaa;
     background-image: -webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
@@ -135,7 +135,7 @@ header {
 }
 
 .configuration-normal {
-    left: -100px;
+    left: -55px;
     width: 420px;
 }
 

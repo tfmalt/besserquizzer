@@ -8,18 +8,129 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
     controller('CardsController', function ($scope) {
         "use strict";
         $scope.title = "Besser & Quizzer";
-        $scope.menu = { state: "normal" };
+        $scope.menu = {
+            state:    "normal",
+            position: {},
+            side:     265,
+            normal:   -1
+        };
+        $scope.drag = {};
+        $scope.lastwastap = false;
 
-        $scope.menuButtonTap = function ($e) {
+        $scope.handleButtonTap = function ($e, $who) {
             console.log("button: got tap: " + $e.type);
-            var st = $scope.menu.state;
+            var $el = angular.element(document.getElementById($who));
+            var st  = $scope.menu.state;
             $scope.menu.state = (st === "normal") ? "side" : "normal";
+
+            if ($el.hasClass("notransition")) {
+                $el.removeClass("notransition");
+            }
+
+            $el.css("left", $scope.menu[$scope.menu.state] + "px");
             console.log("  Switching state: " + st + " -> " + $scope.menu.state);
+            $scope.lastwastap = true;
+        };
+
+        $scope.handleDragstart = function ($e, $who) {
+            var $el = angular.element(document.getElementById($who));
+            $scope.menu.position.x = $el.context.offsetLeft;
+            $scope.drag.main       = { position: $e.position };
+            $scope.dragstart = {
+                timestamp: $e.originalEvent.timeStamp,
+                position: $e.position
+            };
+
+            console.log("handleDragstart: ", $e, $who);
+        };
+
+        $scope.handleDrag = function ($e, $who) {
+            var $el   = document.getElementById($who);
+            $el.classList.add("notransition");
+
+            var pos   = { x: $el.offsetLeft };
+            var delta = { x: $scope.drag.main.position.x - $e.position.x };
+
+            $scope.drag.main.position = $e.position;
+            $scope.menu.position.x = (pos.x - delta.x);
+            if ($scope.menu.position.x <= $scope.menu.normal) {
+                $scope.menu.position.x = $scope.menu.normal;
+                return;
+            }
+            if ($scope.menu.position.x >= $scope.menu.side) {
+                $scope.menu.position.x = $scope.menu.side;
+                return;
+            }
+
+            $el.style.left = $scope.menu.position.x + "px";
+
+            // console.log("handleDrag: " + $el.style.left + ":" + $left, $e);
+        };
+
+        $scope.handleTouchend = function ($e, $who) {
+            console.log("handleTouchend: ", $e);
+
+            // Sigh. Using a flag is a poor mans solution.
+            // Flag this for maybe refactor later. I just need to keep
+            // touchend from cancelling the tap switch menu state.
+            if ($scope.lastwastap) {
+                $scope.lastwastap = false;
+                return;
+            }
+
+            var $el = angular.element(document.getElementById($who));
+
+            if ($el.hasClass("notransition")) {
+                $el.removeClass("notransition");
+            }
+            var sideThreshold = (screen.width/2)+10;
+            var left = $el.context.offsetLeft;
+            $scope.menu.state =  (left >= sideThreshold) ? "side" : "normal";
+            $el.css('left', $scope.menu[$scope.menu.state] + "px");
+        };
+
+        $scope.handleSwipe = function ($e, $who) {
+            var $el = angular.element(document.getElementById($who));
+            if ($el.hasClass("notransition")) {
+                $el.removeClass("notransition");
+            }
+
+            var $timestamp = $e.originalEvent.timeStamp;
+            var $duration  = $timestamp - $scope.dragstart.timestamp;
+            var $length;
+            if ($e.direction === "right") {
+                $length = $e.position.x - $scope.dragstart.position.x;
+            } else {
+                $length = $scope.dragstart.position.x - $e.position.x;
+            }
+            var $styles = window.getComputedStyle($el.context);
+            var originalDuration = $styles.webkitTransitionDuration;
+            $scope.originalTransitionDuration = originalDuration;
+
+            var $fraction = $scope.menu.side/$length;
+            var $newDuration = ($duration*$fraction)/1000;
+
+            $scope.menu.state = ($e.direction === "right") ? "side" : "normal";
+            var $newLeft = $scope.menu[$scope.menu.state] + "px";
+            $el.css('webkitTransitionDuration', $newDuration);
+            $el.css('left', $newLeft);
+            $scope.lastwastap = true;
+
+            console.log(
+                "handleSwipe: state: " + $scope.menu.state +
+                ", duration: " + $duration + "ms, transitonDuration: " +
+                $newDuration + ", length: " + length +
+                ", styles: ", $styles, "event: ", $e
+            );
+        };
+
+        $scope.handleTouchmove = function ($e) {
+            // console.log("Got call to handle touch move");
+            $e.preventDefault();
         };
 
         $scope.gotEvent = function ($event) {
             console.log("got event: " + $event.type);
-            console.log(dd.inspect($event, 1));
         };
     });
 
@@ -30,55 +141,25 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
 var app = {
     initialize: function () {
         "use strict";
-        this.bindEvents();
-    },
-
-    // Bind Event Listeners
-    //
-    // Bind any events that are required on startup. Common events are:
-    // 'load', 'deviceready', 'offline', and 'online'.
-    bindEvents: function () {
-        "use strict";
-        console.log("running app.initialize -> bindevents");
         document.addEventListener("deviceready", app.onDeviceReady, false);
-
-        $(".card").on("touchmove", this.handleCardTouchmove);
-        // $(".card").on("touchend",  this.handleCardTouchend);
     },
+
 
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
     // function, we must explicity call 'app.receivedEvent(...);'
-    onDeviceReady: function (e) {
+    onDeviceReady: function () {
         "use strict";
         console.log("running app.onDeviceReady");
-        // var isdd = (typeof dd === 'undefined') ? "no" : "yes";
-        // console.log("do i have dd: " + dd);
         angular.bootstrap(document, ['besserQuizzer']);
 
         // Load a question.
         // console.log("Calling json");
         // $.getJSON('http://zinc.malt.no:3000/question', app.displayQuestion);
-    },
-
-    handleCardTouchmove: function (e) {
-        "use strict";
-        // console.log("card: got touchmove: " + $(this).id);
-        e.preventDefault();
-
-        if (this.id === "main-page") {
-            app.moveMainPage(e, $(this));
-        }
-    },
-
-    handleCardTouchend: function (e) {
-        "use strict";
-        // console.log("card: got touchend: " + $(this).id);
-        if ($(this).hasClass("notransition")) {
-            $(this).removeClass("notransition");
-        }
     }
+
+
     //
     /* displayQuestion: function(data) {
         console.log("Got JSON: " + data.question);
@@ -96,10 +177,10 @@ var app = {
             var alt = $(this).attr("data-alternative");
             console.log("answer got pressed: " + this.id + ":" + alt);
             var isCorrect = (app.currentQuestion.answer == alt) ? true : false;
-            console.log("  Got: " + app.currentQuestion.answer + ":" + alt + 
+            console.log("  Got: " + app.currentQuestion.answer + ":" + alt +
                 ":" + isCorrect
             );
-            
+
             var newClass = (isCorrect) ? "correct" : "wrong";
 
             $(this).removeClass("answered");
@@ -129,13 +210,13 @@ var app = {
                     console.log("    " + k2 + ": " + v2);
                 });
             }
-        }); 
-    
+        });
+
         if (! mp.hasClass("notransition")) {
             mp.addClass("notransition");
         }
         mp.css("left", e.pageX+"px");
-        //console.log("moveMainPage: " + e.pageX + ":" + e.pageY + 
+        //console.log("moveMainPage: " + e.pageX + ":" + e.pageY +
         //    "   " + e.offsetX + ":" + e.offsetY);
     }, */
 };
