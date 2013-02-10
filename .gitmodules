@@ -1,0 +1,3 @@
+[submodule "www/js/debug-dump"]
+	path = www/js/debug-dump
+	url = git@github.com:tfmalt/debug-dump.git
