@@ -1,5 +1,5 @@
 /*jslint browser: true */
-/*global angular,$,dd */
+/*global angular,$,dd,FB,CDV,alert */
 
  /**
  * Lets try to add an angular controller here.
@@ -34,7 +34,7 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
 
         $scope.handleDragstart = function ($e, $who) {
             var $el = angular.element(document.getElementById($who));
-            $scope.menu.position.x = $el.context.offsetLeft;
+            $scope.menu.position.x = $el[0].offsetLeft;
             $scope.drag.main       = { position: $e.position };
             $scope.dragstart = {
                 timestamp: $e.originalEvent.timeStamp,
@@ -84,7 +84,7 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
                 $el.removeClass("notransition");
             }
             var sideThreshold = (screen.width/2)+10;
-            var left = $el.context.offsetLeft;
+            var left = $el[0].offsetLeft;
             $scope.menu.state =  (left >= sideThreshold) ? "side" : "normal";
             $el.css('left', $scope.menu[$scope.menu.state] + "px");
         };
@@ -103,25 +103,20 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
             } else {
                 $length = $scope.dragstart.position.x - $e.position.x;
             }
-            var $styles = window.getComputedStyle($el.context);
-            var originalDuration = $styles.webkitTransitionDuration;
-            $scope.originalTransitionDuration = originalDuration;
+            // var $styles = window.getComputedStyle($el[0]);
+            // var originalDuration = $styles.webkitTransitionDuration;
+            // $scope.originalTransitionDuration = originalDuration;
 
-            var $fraction = $scope.menu.side/$length;
-            var $newDuration = ($duration*$fraction)/1000;
+            // var $fraction = $scope.menu.side/$length;
+            // var $newDuration = ($duration*$fraction)/1000;
 
             $scope.menu.state = ($e.direction === "right") ? "side" : "normal";
             var $newLeft = $scope.menu[$scope.menu.state] + "px";
-            $el.css('webkitTransitionDuration', $newDuration);
+            // $el.css('webkitTransitionDuration', $newDuration);
             $el.css('left', $newLeft);
             $scope.lastwastap = true;
 
-            console.log(
-                "handleSwipe: state: " + $scope.menu.state +
-                ", duration: " + $duration + "ms, transitonDuration: " +
-                $newDuration + ", length: " + length +
-                ", styles: ", $styles, "event: ", $e
-            );
+            console.log("handleSwipe: state: " + $scope.menu.state, $e);
         };
 
         $scope.handleTouchmove = function ($e) {
@@ -132,11 +127,24 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
         $scope.gotEvent = function ($event) {
             console.log("got event: " + $event.type);
         };
+    }).
+    controller('LoginController', function ($scope) {
+        $scope.loginUser = function () {
+            console.log("Got call to loginUser");
+        };
+
+        $scope.handleFacebookLogin = function () {
+            console.log("Got call to handleFacebookLogin");
+        };
+
+        $scope.handleTouchmove = function ($e) {
+            $e.preventDefault();
+        };
     });
 
 
-/*
- *
+/**
+ * Default object literal to execute for our app.
  */
 var app = {
     initialize: function () {
@@ -153,13 +161,64 @@ var app = {
         "use strict";
         console.log("running app.onDeviceReady");
         angular.bootstrap(document, ['besserQuizzer']);
+        try {
+            var res = FB.init({
+                appId: "214673242010171",
+                nativeInterface: CDV.FB,
+                useCachedDialogs: false
+            });
+        } catch (err) {
+            alert("init; " + err);
+            console.log("Got FB.init error" + err);
+        }
 
-        // Load a question.
-        // console.log("Calling json");
-        // $.getJSON('http://zinc.malt.no:3000/question', app.displayQuestion);
+        try {
+            FB.getLoginStatus(app.handleLoginStatus);
+        } catch (error) {
+            alert("loginstatus: " + error);
+        }
+    },
+
+    onFBStatusChange: function (response) {
+        "use strict";
+        console.log("Got status change: " + dd.inspect(response));
+    },
+    onFBLogin: function (response) {
+        "use strict";
+        console.log("Got login: " + dd.inspect(response));
+    },
+    doUnknownUserLogin: function () {
+        // Setting the correct elements visible:
+        console.log("got call to doUnknownUserLogin");
+        var $cards = angular.element(document.getElementById('cards-controller'));
+        var $login = angular.element(document.getElementById('login-controller'));
+
+        $cards.removeClass("visible").addClass("hidden");
+        $login.removeClass("hidden").addClass("visible");
+
+
+    },
+    handleLoginStatus: function (response) {
+        "use strict";
+        console.log("Got loginstatus: " + dd.inspect(response, 4));
+        // alert("login status");
+        switch (response.status) {
+            case 'unknown':
+                app.doUnknownUserLogin();
+                break;
+            default:
+                console.log("WTF: unknown case in handling response.status");
+        };
     }
+};
+app.initialize();
 
+FB.Event.subscribe('auth.statusChange', app.onFBStatusChange);
+FB.Event.subscribe('auth.login', app.onFBLogin);
 
+// Load a question.
+// console.log("Calling json");
+// $.getJSON('http://zinc.malt.no:3000/question', app.displayQuestion);
     //
     /* displayQuestion: function(data) {
         console.log("Got JSON: " + data.question);
@@ -199,27 +258,3 @@ var app = {
         $("#question-box").css("left", "15px");
 
     }, */
-    // Start of drag move for the main page.
-    /* moveMainPage: function(evt, mp) {
-        var e = evt.originalEvent;
-        console.log("moveMainPage:");
-         _.each(e, function(value, key, list) {
-            console.log("  " + key + ": " + value);
-            if (_.isObject(value)) {
-                _.each(value, function(v2, k2, list2) {
-                    console.log("    " + k2 + ": " + v2);
-                });
-            }
-        });
-
-        if (! mp.hasClass("notransition")) {
-            mp.addClass("notransition");
-        }
-        mp.css("left", e.pageX+"px");
-        //console.log("moveMainPage: " + e.pageX + ":" + e.pageY +
-        //    "   " + e.offsetX + ":" + e.offsetY);
-    }, */
-};
-
-app.initialize();
-
