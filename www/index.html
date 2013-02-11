@@ -13,7 +13,7 @@
         <title>Hello World</title>
     </head>
     <body>
-        <div class="cards" ng-controller="CardsController">
+        <div id="cards-controller" class="cards" ng-controller="CardsController">
             <div id="main-menu" class="card main-menu-{{menu.state}}"
                 hm-swipe="handleSwipe($event, 'main-menu')"
                 hm-dragstart="handleDragstart($event, 'main-menu')"
@@ -38,14 +38,34 @@
                 </header>
                 foobar
             </div>
-        </div>       
+        </div>
+        <div id="login-controller" class="login" ng-controller="LoginController">
+            <div id="login-screen" class="facebook-login"
+                te-touchmove="handleTouchmove($event)">
+                <form id="login-form" ng-submit="loginUser()">
+                    <fieldset>
+                        <legend>Sign Up or Log in</legend>
+                        <input type="email" size="64" placeholder="e-mail address">
+                        <input type="password" size="32" placeholder="password">
+                        <input type="submit" value="Sign Up or Log In">
+                    </fieldset>
+                    <fieldset>
+                        <legend>or</legend>
+                        <button id="face" hm-tap="handleFacebookLogin()">Login with Facebook</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
         <script type="text/javascript" src="cordova-2.3.0.js"></script>
-        <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+        <!-- <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> -->
+        <script type="text/javascript" src="cdv-plugin-fb-connect.js"></script>
+        <script type="text/javascript" src="facebook_js_sdk.js"></script>
         <script type="text/javascript" src="js/angular.min.js"></script>
         <script type="text/javascript" src="js/underscore-min.js"></script>
         <script type="text/javascript" src="js/hammer.js"></script>
         <script type="text/javascript" src="js/angular-hammer.js"></script>
         <script type="text/javascript" src="js/angular-touchevents.js"></script>
+        <script type="text/javascript" src="js/debug-dump/src/debugdump.js"></script>
         <script type="text/javascript" src="js/besserquizzer.js"></script>
     </body>
 </html>
