@@ -1,4 +1,27 @@
 @charset "UTF-8";
+/*
+ * Color scheme
+ *
+ *  #e6e2af
+ *
+ */
+
+.colorscheme_sandy {
+    color: #E6E2AF;
+    color: #A7A37E;
+    color: #efecca;
+    color: #046480;
+    color: #002f2f;
+}
+
+.colorscheme_neutral {
+    color: #fcfff5;
+    color: #d1dbbd;
+    color: #91aa9d;
+    color: #3e606f;
+    color: #193441;
+
+}
 
 * {
     -webkit-tap-highlight-color: rgba(0,0,0,0); 
@@ -106,6 +129,15 @@ header {
 .notransition {
     -webkit-transition: none !important;
 }
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
 /*
  * A class for common attributes for page cards
  */
@@ -114,6 +146,118 @@ header {
     height: 100%;
     -webkit-transform: translateZ(0);
     -webkit-transition: left 0.3s ease-out;
+}
+
+.facebook-login {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #3e606f; /* rgb(4, 99, 128); /* #807970; /* #6d695c; */
+    background-image: -webkit-repeating-linear-gradient(
+                          -30deg,
+                          rgba(255,255,255,.1),
+                          rgba(255,255,255,.1) 1px,
+                          transparent 1px,
+                          transparent 60px),
+                      -webkit-repeating-linear-gradient(
+                          30deg,
+                          rgba(255,255,255,.1),
+                          rgba(255,255,255,.1) 1px,
+                          transparent 1px,
+                          transparent 60px),
+                      -webkit-linear-gradient(
+                          30deg,
+                          rgba(0,0,0,.1) 25%,
+                          transparent 25%,
+                          transparent 75%,
+                          rgba(0,0,0,.1) 75%,
+                          rgba(0,0,0,.1)),
+                      -webkit-linear-gradient(
+                          -30deg,
+                          rgba(0,0,0,.1) 25%,
+                          transparent 25%,
+                          transparent 75%,
+                          rgba(0,0,0,.1) 75%,
+                          rgba(0,0,0,.1));
+    background-size: 70px 120px;
+
+}
+
+.facebook-login fieldset {
+    text-align: center;
+    border-width: 1px 0 0 0;
+    border-color: white;
+}
+
+.facebook-login fieldset legend {
+    color: white;
+    font-size: 17px;
+
+}
+
+.facebook-login form {
+    position: relative;
+    top: 80px;
+
+}
+.facebook-login form input {
+    width: 90%;
+    font-size: 17px;
+    height: 37px;
+    -webkit-appearance: none;
+}
+.facebook-login form input[type="email"] {
+    margin: 0;
+    border-width: 1px 1px 0 1px;
+    border-color: #ccc;
+    border-style: solid;
+    border-radius: 8px 8px 0 0;
+}
+.facebook-login form input[type="password"] {
+    margin: 0;
+    border-width: 1px 1px 1px 1px;
+    border-color: #ccc;
+    boarder-style: solid;
+    border-radius: 0 0 8px 8px;
+}
+
+.facebook-login form input[type="submit"] {
+    margin-top: 12px;
+    border-radius: 8px;
+    border: 1px solid #262;
+    color:white;
+    text-shadow: -1px -1px 0 rgba(0,0,0, 0.4);
+    -webkit-appearance: none;
+    background: -webkit-linear-gradient(
+                    top,
+                    rgb(10, 213, 17) 0%,
+                    rgb(9, 150, 9) 49%,
+                    rgba(54,193,23,1) 51%,
+                    rgba(124,188,10,1) 100%
+                ); /* Chrome10+,Safari5.1+ */
+}
+
+.facebook-login button {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 37px;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 37px;
+    box-shadow: 3px 3px 10px rgba(255,255,255, 0.4) inset;
+    text-shadow: -1px -1px 2px rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #224;
+    background-image: url("../res/icon/f_logo.png");
+    background-repeat: no-repeat;
+    background-size: 37px 37px;
+    background-color: #3C5A98;
+    background-position: -4px 0px;
+
 }
 .main-menu-normal {
     left: -1px;
