@@ -95,24 +95,8 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
                 $el.removeClass("notransition");
             }
 
-            var $timestamp = $e.originalEvent.timeStamp;
-            var $duration  = $timestamp - $scope.dragstart.timestamp;
-            var $length;
-            if ($e.direction === "right") {
-                $length = $e.position.x - $scope.dragstart.position.x;
-            } else {
-                $length = $scope.dragstart.position.x - $e.position.x;
-            }
-            // var $styles = window.getComputedStyle($el[0]);
-            // var originalDuration = $styles.webkitTransitionDuration;
-            // $scope.originalTransitionDuration = originalDuration;
-
-            // var $fraction = $scope.menu.side/$length;
-            // var $newDuration = ($duration*$fraction)/1000;
-
             $scope.menu.state = ($e.direction === "right") ? "side" : "normal";
             var $newLeft = $scope.menu[$scope.menu.state] + "px";
-            // $el.css('webkitTransitionDuration', $newDuration);
             $el.css('left', $newLeft);
             $scope.lastwastap = true;
 
@@ -120,7 +104,6 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
         };
 
         $scope.handleTouchmove = function ($e) {
-            // console.log("Got call to handle touch move");
             $e.preventDefault();
         };
 
@@ -170,7 +153,7 @@ var app = {
         console.log("running app.onDeviceReady");
         angular.bootstrap(document, ['besserQuizzer']);
         try {
-            var res = FB.init({
+            FB.init({
                 appId: "214673242010171",
                 nativeInterface: CDV.FB,
                 useCachedDialogs: false
@@ -231,46 +214,3 @@ app.initialize();
 
 FB.Event.subscribe('auth.statusChange', app.onFBStatusChange);
 FB.Event.subscribe('auth.login', app.onFBLogin);
-
-// Load a question.
-// console.log("Calling json");
-// $.getJSON('http://zinc.malt.no:3000/question', app.displayQuestion);
-    //
-    /* displayQuestion: function(data) {
-        console.log("Got JSON: " + data.question);
-        app.currentQuestion = data;
-        var html = '<div class="question">' + data.question + '</div><ul>';
-        _.each(data.alternatives, function(value, key, list) {
-            // alert(key + ": " + value);
-            html += '<li id="a'+ key + '" class="answer"'
-            html += 'data-alternative="'+key+'">' + value + '</li>'
-        });
-        $("#question-box").html(html);
-
-
-        $(".answer").on('touchend', function(e) {
-            var alt = $(this).attr("data-alternative");
-            console.log("answer got pressed: " + this.id + ":" + alt);
-            var isCorrect = (app.currentQuestion.answer == alt) ? true : false;
-            console.log("  Got: " + app.currentQuestion.answer + ":" + alt +
-                ":" + isCorrect
-            );
-
-            var newClass = (isCorrect) ? "correct" : "wrong";
-
-            $(this).removeClass("answered");
-            $(this).addClass(newClass);
-
-            // alert("got chosen");
-        });
-
-
-        $(".answer").on("touchstart", function(e) {
-            // this.addClass("answered");
-            $(this).addClass("answered");
-            console.log("answer: got touchstart: " + this.id);
-        });
-
-        $("#question-box").css("left", "15px");
-
-    }, */
