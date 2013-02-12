@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/*
+ * Color scheme
+ *
+ *  #e6e2af
+ *
+ */
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-box-sizing: border-box; }
+
+body {
+  /* prevent callout to copy image, etc when tap to hold */
+  -webkit-touch-callout: none;
+  /* prevent webkit from resizing text to fit */
+  -webkit-text-size-adjust: none;
+  /* prevent copy paste, to allow, change 'none' to 'text' */
+  -webkit-user-select: none;
+  background-color: #002f2f;
+  font-family: "HelveticaNeue-Light", "HelveticaNeue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+/* Portrait layout (default) */
+#question-box {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 320px;
+  height: 320px;
+  padding: 0;
+  padding-bottom: 15px;
+  z-index: 100;
+  font-size: 17px;
+  background-color: #ff9;
+  border: 4px solid #ffcc33;
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  -webkit-transition: left 1s ease-in-out;
+  -webkit-transform: translateZ(0); }
+  #question-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #question-box ul li {
+      border: 1px solid #006600;
+      text-align: center;
+      padding: 13px;
+      margin: 8px 15px;
+      font-weight: bold;
+      display: block;
+      border-radius: 6px; }
+
+.question {
+  background-color: #ffd;
+  border: 1px solid #ffcc33;
+  margin: 15px;
+  padding: 8px;
+  font-size: 17px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 6px rgba(255, 128, 0, 0.5) inset; }
+
+.answer {
+  background: -webkit-linear-gradient(top, #2c8c3e 0%, #3dc54b 50%, #33b742 51%, #8adc90 100%);
+  text-shadow: -1px -1px rgba(0, 0, 0, 0.5);
+  color: #fefefe;
+  -webkit-transition: color 0.2s ease-in-out; }
+
+.correct {
+  background: #080; }
+
+.wrong {
+  background: #800; }
+
+.answered {
+  background: #888;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5) inset; }
+
+/* Landscape layout (with min-width)
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  
+        margin:-90px 0px 0px -198px;  
+    }
+}
+*/
+header {
+  position: fixed; }
+
+.notransition {
+  -webkit-transition: none !important; }
+
+.visible {
+  display: block; }
+
+.hidden {
+  display: none; }
+
+/*
+ * A class for common attributes for page cards
+ */
+.card {
+  position: absolute;
+  height: 100%;
+  -webkit-transform: translateZ(0);
+  -webkit-transition: left 0.3s ease-out; }
+
+.main-menu-normal {
+  left: -1px; }
+
+.main-menu-side {
+  left: 265px; }
+
+#main-menu {
+  position: absolute;
+  top: 0;
+  width: 321px;
+  height: 100%;
+  border-left: 1px solid #aaaaaa;
+  background-color: #046580;
+  background-image: -webkit-repeating-linear-gradient(-30deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px), -webkit-repeating-linear-gradient(30deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px), -webkit-linear-gradient(30deg, rgba(255, 0, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.1)), -webkit-linear-gradient(-30deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.1));
+  background-size: 70px 120px;
+  /* background-image: -webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+   */
+  box-shadow: -2px 0 6px rgba(0, 0, 0, 0.33);
+  z-index: 100; }
+  #main-menu header {
+    background-color: #023e4f;
+    height: 44px;
+    padding: 2px 50px 2px 0;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+    /* box-shadow: 0px 2px 12px rgba(0,0,0,0.4); */
+    z-index: 200; }
+    #main-menu header button {
+      height: 32px;
+      width: 44px;
+      margin: 6px 5px;
+      padding: 0 8px;
+      float: left;
+      border-radius: 4px;
+      border: 1px solid #01171d;
+      background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 49%, rgba(0, 0, 0, 0.1) 51%, rgba(0, 0, 0, 0.6) 100%); }
+      #main-menu header button .icon {
+        height: 24px;
+        width: 24px;
+        position: relative;
+        top: -1px;
+        margin: 0;
+        padding: 0;
+        background-image: url("../img/side_menu_48_black.png");
+        background-size: 24px 24px;
+        background-repeat: no-repeat; }
+      #main-menu header button:active {
+        background: -webkit-linear-gradient(top, #bfbfbf 0%, #dbdbdb 50%, #d1d1d1 51%, white 100%);
+        /* Chrome10+,Safari5.1+ */ }
+
+.logo {
+  position: absolute;
+  top: 50px;
+  height: 200px;
+  width: 200px;
+  z-index: 301;
+  border: 1px solid #aaaaaa; }
+  .logo #foreground {
+    position: absolute;
+    top: 60px;
+    border: 1px solid black; }
+    .logo #foreground .besser {
+      font-family: 'Oleo Script Swash Caps';
+      font-size: 48px;
+      -webkit-text-stroke: 2px white;
+      text-shadow: 0 2px 6px black;
+      color: #ce1c00;
+      z-index: 303; }
+    .logo #foreground .quizzer {
+      font-family: 'HelveticaNeue-UltraLight';
+      font-size: 36px;
+      text-shadow: 2px 2px 4px black, -2px 2px 4px black, 2px -2px 4px black, -2px -2px 4px black;
+      color: white;
+      z-index: 303; }
+      .logo #foreground .quizzer:first-letter {
+        font-size: 48px; }
+  .logo #background {
+    z-index: 302;
+    width: 100%;
+    height: 100%;
+    border: 1px solid green; }
+    .logo #background span {
+      position: absolute;
+      display: block;
+      font-size: 116px;
+      color: rgba(255, 255, 255, 0.2);
+      font-family: 'Oleo Script Swash Caps'; }
+    .logo #background .b {
+      left: 40px;
+      border: 1px solid violet; }
+    .logo #background .q {
+      top: 30px;
+      left: 100px;
+      border: 1px solid orange; }
+
+.configuration-normal {
+  left: -55px;
+  width: 420px; }
+
+.configuration-side {
+  left: 0;
+  width: 320px; }
+
+#configuration {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  background-color: white;
+  z-index: 90; }
+
+#configuration header {
+  padding: 4px 12px;
+  background-color: white; }
+
+/*
+#main-menu header h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+*/
+h1 {
+  font-size: 28px;
+  font-weight: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  text-align: center; }
+
+.facebook-login {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #046580;
+  background-image: -webkit-repeating-linear-gradient(-30deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px), -webkit-repeating-linear-gradient(30deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px), -webkit-linear-gradient(30deg, rgba(255, 0, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.1)), -webkit-linear-gradient(-30deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.1));
+  background-size: 70px 120px; }
+  .facebook-login fieldset {
+    text-align: center;
+    border-width: 1px 0 0 0;
+    border-color: white; }
+    .facebook-login fieldset legend {
+      margin: 0 12px 0 12px;
+      color: white;
+      font-size: 17px; }
+  .facebook-login form {
+    position: relative;
+    top: 80px; }
+    .facebook-login form input {
+      width: 90%;
+      font-size: 17px;
+      height: 37px;
+      -webkit-appearance: none; }
+    .facebook-login form input[type="email"] {
+      margin: 0;
+      border-width: 1px 1px 0 1px;
+      border-color: #ccc;
+      border-style: solid;
+      border-radius: 8px 8px 0 0; }
+    .facebook-login form input[type="password"] {
+      margin: 0;
+      border-width: 1px 1px 1px 1px;
+      border-color: #ccc;
+      boarder-style: solid;
+      border-radius: 0 0 8px 8px; }
+    .facebook-login form input[type="submit"] {
+      margin-top: 12px;
+      text-shadow: 0 1px 1px white;
+      -webkit-appearance: none;
+      width: 90%;
+      height: 44px;
+      font-size: 17px;
+      font-weight: bold;
+      /* box-shadow: 0 3px 15px rgba(255,255,255, 0.6) inset; */
+      /* box-shadow: 0 -3px 6px rgba(0,0,0, 0.4) inset; */
+      color: #333333;
+      border-radius: 8px;
+      background-color: #e6e2af;
+      background-image: -webkit-linear-gradient(top, #fefefd 0%, #e6e2af 50%, #e6e2af 55%, transparent 55%, rgba(0, 0, 0, 0.4) 100%); }
+  .facebook-login button {
+    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
+    -webkit-appearance: none;
+    width: 90%;
+    height: 44px;
+    font-size: 17px;
+    font-weight: bold;
+    /* box-shadow: 0 3px 15px rgba(255,255,255, 0.6) inset; */
+    /* box-shadow: 0 -3px 6px rgba(0,0,0, 0.4) inset; */
+    color: white;
+    border-radius: 8px;
+    background-color: #a7a37e;
+    background-image: -webkit-linear-gradient(top, #d0cebb 0%, #a7a37e 50%, #a7a37e 55%, transparent 55%, rgba(0, 0, 0, 0.4) 100%);
+    padding-left: 37px;
+    background-image: url("../res/icon/f_logo.png");
+    background-repeat: no-repeat;
+    background-size: 37px 37px;
+    background-position: -4px 0px; }
