@@ -79,18 +79,6 @@ body {
   background: #888;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.5) inset; }
 
-/* Landscape layout (with min-width)
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-    .app {
-        background-position:left center;
-        padding:75px 0px 75px 170px;  
-        margin:-90px 0px 0px -198px;  
-    }
-}
-*/
-header {
-  position: fixed; }
-
 .notransition {
   -webkit-transition: none !important; }
 
@@ -110,99 +98,113 @@ header {
   -webkit-transition: left 0.3s ease-out; }
 
 .main-menu-normal {
-  left: -1px; }
+  left: 0px; }
 
 .main-menu-side {
   left: 265px; }
 
+header {
+  position: fixed; }
+
+footer {
+  position: fixed;
+  height: 44px;
+  width: 100%;
+  bottom: 20px; }
+
 #main-menu {
   position: absolute;
+  left: 0;
   top: 0;
-  width: 321px;
+  width: 320px;
   height: 100%;
-  border-left: 1px solid #aaaaaa;
   background-color: #046580;
   background-image: -webkit-repeating-linear-gradient(-30deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px), -webkit-repeating-linear-gradient(30deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1) 1px, transparent 1px, transparent 60px), -webkit-linear-gradient(30deg, rgba(255, 0, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.1)), -webkit-linear-gradient(-30deg, rgba(0, 0, 0, 0.1) 25%, transparent 25%, transparent 75%, rgba(0, 0, 0, 0.1) 75%, rgba(0, 0, 0, 0.1));
   background-size: 70px 120px;
-  /* background-image: -webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-   */
   box-shadow: -2px 0 6px rgba(0, 0, 0, 0.33);
   z-index: 100; }
-  #main-menu header {
-    background-color: #023e4f;
+  #main-menu footer {
+    background: transparent;
     height: 44px;
-    padding: 2px 50px 2px 0;
+    padding: 0;
     width: 100%;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
-    /* box-shadow: 0px 2px 12px rgba(0,0,0,0.4); */
     z-index: 200; }
-    #main-menu header button {
-      height: 32px;
-      width: 44px;
-      margin: 6px 5px;
-      padding: 0 8px;
-      float: left;
-      border-radius: 4px;
-      border: 1px solid #01171d;
-      background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 49%, rgba(0, 0, 0, 0.1) 51%, rgba(0, 0, 0, 0.6) 100%); }
-      #main-menu header button .icon {
-        height: 24px;
-        width: 24px;
-        position: relative;
-        top: -1px;
-        margin: 0;
-        padding: 0;
-        background-image: url("../img/side_menu_48_black.png");
-        background-size: 24px 24px;
-        background-repeat: no-repeat; }
-      #main-menu header button:active {
-        background: -webkit-linear-gradient(top, #bfbfbf 0%, #dbdbdb 50%, #d1d1d1 51%, white 100%);
-        /* Chrome10+,Safari5.1+ */ }
+    #main-menu footer button {
+      -webkit-appearance: none;
+      position: absolute;
+      left: 6px;
+      bottom: 6px;
+      height: 42px;
+      width: 42px;
+      margin: 0;
+      padding: 0;
+      border: none;
+      background-color: transparent;
+      background-image: url("../res/icon/cog_64.png");
+      background-size: 42px 42px;
+      background-repeat: no-repeat; }
+  #main-menu .gametypes {
+    position: absolute;
+    width: 260px;
+    top: 212px;
+    left: 30px;
+    z-index: 400; }
+    #main-menu .gametypes button {
+      font-family: "HelveticaNeue-Light", "HelveticaNeue", Helvetica, Arial, sans-serif;
+      margin-bottom: 12px;
+      text-shadow: 0 1px 0 white;
+      -webkit-appearance: none;
+      width: 100%;
+      height: 44px;
+      font-size: 17px;
+      color: #444444;
+      border-radius: 8px;
+      border: none;
+      background-color: #e6e2af;
+      background-image: -webkit-linear-gradient(top, #f5f3de 0%, #e6e2af 40%, #e6e2af 60%, #b9b476 100%); }
+      #main-menu .gametypes button strong {
+        font-family: "HelveticaNeue-Light", "HelveticaNeue", Helvetica, Arial, sans-serif; }
 
 .logo {
   position: absolute;
   top: 50px;
   height: 200px;
-  width: 200px;
+  width: 320px;
   z-index: 301;
-  border: 1px solid #aaaaaa; }
+  text-align: center; }
   .logo #foreground {
     position: absolute;
     top: 60px;
-    border: 1px solid black; }
-    .logo #foreground .besser {
-      font-family: 'Oleo Script Swash Caps';
-      font-size: 48px;
-      -webkit-text-stroke: 2px white;
-      text-shadow: 0 2px 6px black;
-      color: #ce1c00;
+    left: 36px; }
+    .logo #foreground span {
+      display: inline-block;
       z-index: 303; }
+    .logo #foreground .besser {
+      font-family: "Oleo Script Swash Caps";
+      font-size: 48px;
+      -webkit-text-stroke: 1px white;
+      text-shadow: 0 2px 6px black;
+      color: #ce1c00; }
     .logo #foreground .quizzer {
-      font-family: 'HelveticaNeue-UltraLight';
-      font-size: 36px;
+      font-family: "HelveticaNeue-UltraLight", "HelveticaNeue-Light", "HelveticaNeue", Helvetica, Arial, sans-serif;
+      font-size: 40px;
+      letter-spacing: 0.06em;
       text-shadow: 2px 2px 4px black, -2px 2px 4px black, 2px -2px 4px black, -2px -2px 4px black;
       color: white;
-      z-index: 303; }
-      .logo #foreground .quizzer:first-letter {
-        font-size: 48px; }
+      top: 10px; }
   .logo #background {
-    z-index: 302;
-    width: 100%;
-    height: 100%;
-    border: 1px solid green; }
+    z-index: 302; }
     .logo #background span {
       position: absolute;
       display: block;
       font-size: 116px;
       color: rgba(255, 255, 255, 0.2);
-      font-family: 'Oleo Script Swash Caps'; }
+      font-family: "Oleo Script Swash Caps"; }
     .logo #background .b {
-      left: 40px;
-      border: 1px solid violet; }
+      left: 86px; }
     .logo #background .q {
       top: 30px;
-      left: 100px;
-      border: 1px solid orange; }
+      left: 146px; }
 
 .configuration-normal {
   left: -55px;
@@ -218,16 +220,10 @@ header {
   height: 100%;
   background-color: white;
   z-index: 90; }
+  #configuration header {
+    padding: 4px 12px;
+    background-color: white; }
 
-#configuration header {
-  padding: 4px 12px;
-  background-color: white; }
-
-/*
-#main-menu header h1 {
-    font-family: 'Oleo Script Swash Caps', cursive;
-}
-*/
 h1 {
   font-size: 28px;
   font-weight: normal;
@@ -277,29 +273,25 @@ h1 {
       margin-top: 12px;
       text-shadow: 0 1px 1px white;
       -webkit-appearance: none;
-      width: 90%;
+      width: 100%;
       height: 44px;
       font-size: 17px;
-      font-weight: bold;
-      /* box-shadow: 0 3px 15px rgba(255,255,255, 0.6) inset; */
-      /* box-shadow: 0 -3px 6px rgba(0,0,0, 0.4) inset; */
       color: #333333;
       border-radius: 8px;
+      border: none;
       background-color: #e6e2af;
-      background-image: -webkit-linear-gradient(top, #fefefd 0%, #e6e2af 50%, #e6e2af 55%, transparent 55%, rgba(0, 0, 0, 0.4) 100%); }
+      background-image: -webkit-linear-gradient(top, #f5f3de 0%, #e6e2af 40%, #e6e2af 60%, #b9b476 100%); }
   .facebook-login button {
     text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.4);
     -webkit-appearance: none;
-    width: 90%;
+    width: 100%;
     height: 44px;
     font-size: 17px;
-    font-weight: bold;
-    /* box-shadow: 0 3px 15px rgba(255,255,255, 0.6) inset; */
-    /* box-shadow: 0 -3px 6px rgba(0,0,0, 0.4) inset; */
     color: white;
     border-radius: 8px;
+    border: none;
     background-color: #a7a37e;
-    background-image: -webkit-linear-gradient(top, #d0cebb 0%, #a7a37e 50%, #a7a37e 55%, transparent 55%, rgba(0, 0, 0, 0.4) 100%);
+    background-image: -webkit-linear-gradient(top, #c0bda2 0%, #a7a37e 40%, #a7a37e 60%, #5f5f5f 100%);
     padding-left: 37px;
     background-image: url("../res/icon/f_logo.png");
     background-repeat: no-repeat;
