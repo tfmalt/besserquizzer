@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="css/fonts.css" />
         <link rel="stylesheet" type="text/css" href="css/besserquizzer.css" />
 
-        <title>Hello World</title>
+        <title>BesserQuizzer</title>
     </head>
     <body>
         <div id="cards-controller" class="cards" ng-controller="CardsController">
@@ -24,12 +24,17 @@
                     <button hm-tap="handleButtonTap($event, 'main-menu')">
                         <div class="icon"></div>
                     </button>
-                    <h1>{{title}}</h1>
                 </header>
-                <div id="question-box">
-                    {{menu.state}}
+                <div class="logo">
+                    <div id="background">
+                        <span class="b">B</span>
+                        <span class="q">Q</span>
+                    </div>
+                    <div id="foreground">
+                    <span class="besser">Besser</span>
+                    <span class="quizzer">Quizzer</span>
+                        </div>
                 </div>
-                <footer></footer>
             </div>
             <div id="configuration" class="card configuration-{{menu.state}}"
                  te-touchmove="handleTouchmove($event)">
@@ -38,8 +43,14 @@
                 </header>
                 foobar
             </div>
+            <div id="game" class="card hidden">
+                <div id="question-box">
+                    {{menu.state}}
+                </div>
+                <footer></footer>
+            </div>
         </div>
-        <div id="login-controller" class="login" ng-controller="LoginController">
+        <div id="login-controller" class="login hidden" ng-controller="LoginController">
             <div id="login-screen" class="facebook-login"
                 te-touchmove="handleTouchmove($event)">
                 <form id="login-form" ng-submit="loginUser()">
@@ -56,6 +67,7 @@
                 </form>
             </div>
         </div>
+        <!-- ===================== End of Cards ======================= -->
         <script type="text/javascript" src="cordova-2.3.0.js"></script>
         <!-- <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> -->
         <script type="text/javascript" src="cdv-plugin-fb-connect.js"></script>

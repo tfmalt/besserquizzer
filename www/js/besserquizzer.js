@@ -129,6 +129,7 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
         };
     }).
     controller('LoginController', function ($scope) {
+        "use strict";
         $scope.loginUser = function () {
             console.log("Got call to loginUser");
         };
@@ -152,7 +153,6 @@ var app = {
         document.addEventListener("deviceready", app.onDeviceReady, false);
     },
 
-
     // deviceready Event Handler
     //
     // The scope of 'this' is the event. In order to call the 'receivedEvent'
@@ -171,12 +171,13 @@ var app = {
             alert("init; " + err);
             console.log("Got FB.init error" + err);
         }
-
+        /*
         try {
             FB.getLoginStatus(app.handleLoginStatus);
         } catch (error) {
             alert("loginstatus: " + error);
         }
+        */
     },
 
     onFBStatusChange: function (response) {
@@ -188,6 +189,7 @@ var app = {
         console.log("Got login: " + dd.inspect(response));
     },
     doUnknownUserLogin: function () {
+        "use strict";
         // Setting the correct elements visible:
         console.log("got call to doUnknownUserLogin");
         var $cards = angular.element(document.getElementById('cards-controller'));
@@ -206,9 +208,15 @@ var app = {
             case 'unknown':
                 app.doUnknownUserLogin();
                 break;
+            case 'connected':
+                console.log("Got facebook handleLoginStatus: connected");
+                break;
+            case 'not_authorized':
+                console.log("Got facebook authorisation state: not_authorized");
+                break;
             default:
                 console.log("WTF: unknown case in handling response.status");
-        };
+        }
     }
 };
 app.initialize();
