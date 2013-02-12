@@ -20,20 +20,28 @@
                 hm-drag="handleDrag($event, 'main-menu')"
                 te-touchend="handleTouchend($event, 'main-menu')"
                 te-touchmove="handleTouchmove($event)">
-                <header>
+                <footer>
                     <button hm-tap="handleButtonTap($event, 'main-menu')">
-                        <div class="icon"></div>
+                        <!-- <div class="icon"></div> -->
                     </button>
-                </header>
+                </footer>
                 <div class="logo">
                     <div id="background">
                         <span class="b">B</span>
                         <span class="q">Q</span>
                     </div>
                     <div id="foreground">
-                    <span class="besser">Besser</span>
-                    <span class="quizzer">Quizzer</span>
-                        </div>
+                        <span class="besser">Besser</span>
+                        <span class="quizzer">quizzer</span>
+                    </div>
+                </div>
+                <div class="gametypes">
+                    <button hm-tap="handleStartQuickGame($event)">
+                        Start <strong>Quick</strong> Mode
+                    </button>
+                    <button hm-tap="handleStartSurvivalGame($event)">
+                        Start <strong>Survival</strong> Mode
+                    </button>
                 </div>
             </div>
             <div id="configuration" class="card configuration-{{menu.state}}"

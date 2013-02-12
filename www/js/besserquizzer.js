@@ -12,7 +12,7 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
             state:    "normal",
             position: {},
             side:     265,
-            normal:   -1
+            normal:   0
         };
         $scope.drag = {};
         $scope.lastwastap = false;
@@ -126,6 +126,14 @@ angular.module('besserQuizzer', ['hmTouchevents', 'teTouchevents']).
 
         $scope.gotEvent = function ($event) {
             console.log("got event: " + $event.type);
+        };
+        $scope.handleStartQuickGame = function ($event) {
+            console.log("Quick Mode clicked. Deal with it.");
+            alert("Quick Mode is not implementet yet.");
+        };
+        $scope.handleStartSurvivalGame = function ($event) {
+            console.log("Survival Mode clicked. Deal with it.");
+            alert("Survival Mode is not implemented yet.");
         };
     }).
     controller('LoginController', function ($scope) {
